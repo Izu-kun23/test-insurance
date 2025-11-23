@@ -109,7 +109,6 @@ temp/
 
 # EmailJS sensitive files
 # Keep EmailJS config private for security
-src/config/emailjs.js
 
 # Email templates (optional - uncomment if you want to keep them private)
 # email-templates/
