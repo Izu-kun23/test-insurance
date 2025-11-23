@@ -6,7 +6,7 @@ import './App.css'
 import Home from './pages/Home'
 import FAQ from './pages/FAQ'
 import Claims from './pages/Claims'
-import Contact from './pages/Contact'
+// import Contact from './pages/Contact'
 import AboutUs from './pages/AboutUs'
 import Leadership from './pages/Leadership'
 import GetQuote from './pages/GetQuote'
@@ -34,7 +34,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/claims" element={<Claims />} />
-        <Route path="/contact" element={<Contact />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
         <Route path="/faqs" element={<FAQ />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/leadership" element={<Leadership />} />
